@@ -23,7 +23,6 @@ public class HomePageLibrary {
     public void selectBrandBanner(String brand){
         HashMap<String,WebElement> brandbanners=new HashMap<>();
         for(WebElement brands:lnkbrandBanner){
-            System.out.println("brand name");
             String b= brands.getAttribute("href");
             brandbanners.put(b.substring(54),brands);
         }
