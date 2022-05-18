@@ -5,7 +5,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = { "src/test/java/resources/features/SelectFilterOption.feature" }, glue = "steps",dryRun = false, monochrome = true )
+@CucumberOptions(features = { "src/test/java/resources/features/PaginationTest.feature" }, glue = "steps",dryRun = false, monochrome = true )
 public class TestRunner {
 
 }
